@@ -7,6 +7,7 @@ import Ter from '../components/UI/Ter';
 import Input from '../components/UI/Input';
 import Norm from '../components/UI/Norm';
 import Carus3 from '../components/UI/Carus3';
+import "../css/styles.css"
 const Home = () => {
     return (
         <div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../css/prot.scss"
 export default function Prot() {
   return (
     <div><div class="parent1">

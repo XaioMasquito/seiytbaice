@@ -1,4 +1,5 @@
 import React from "react";
+import "../../css/norm.scss"
 export default function Norm() {
   return (
     <div className="block_1">

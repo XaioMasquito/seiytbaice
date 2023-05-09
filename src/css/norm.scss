@@ -1,0 +1,197 @@
+.block_1 {
+    width: 100%;
+    height: 800px;
+
+    .block_text {
+        width: 100%;
+        height: 20%;
+        align-items: center;
+        text-align: center;
+
+        .block_p1 {
+            text-align: center;
+            margin-top: 80px;
+            font-size: 20px;
+            font-family: 'Great Vibes', cursive;
+            color: #E72463;
+            font-weight: 800;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+        }
+
+        .block_p2 {
+            text-align: center;
+            font-size: 36px;
+            font-family: 'Josefin Slab', serif;
+            letter-spacing: 1px;
+        }
+    }
+
+    .block_block {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        .blocks_blo1 {
+            width: 370px;
+            height: 500px;
+            box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.068);
+
+            .blo_1 {
+                background-image: url(https://htmldemo.net/flosun/flosun/assets/images/blog/blog1.jpg);
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 45%;
+            }
+
+            .blo_2 {
+                width: 100%;
+                height: 55%;
+
+                .h4 {
+                    font-size: 21px;
+                    margin: 18px;
+
+                    a {
+                        text-decoration: none;
+                        outline: 0;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 100;
+                        color: rgb(0, 0, 0);
+                        transition: 1s;
+                    }
+
+                    a:hover {
+                        color: #E72463;
+                    }
+                }
+            }
+
+        }
+
+        .blocks_blo1:hover {
+            transition: 0.400s;
+            box-shadow: 0 0 20px rgba(34, 34, 34, 0.158);
+        }
+
+        .blocks_blo2 {
+            width: 370px;
+            height: 500px;
+            box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.082);
+
+            .blo_1 {
+                background-image: url(https://htmldemo.net/flosun/flosun/assets/images/blog/blog3.jpg);
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                height: 45%;
+            }
+
+            .blo_2 {
+                width: 100%;
+                height: 55%;
+
+                .h4 {
+                    font-size: 21px;
+                    margin: 18px;
+
+                    a {
+                        text-decoration: none;
+                        outline: 0;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 100;
+                        color: rgb(0, 0, 0);
+                        transition: 1s;
+                    }
+
+                    a:hover {
+                        color: #E72463;
+                    }
+                }
+            }
+        }
+
+        .blocks_blo2:hover {
+            transition: 0.400s;
+            box-shadow: 0 0 20px rgba(41, 41, 41, 0.13);
+        }
+
+        .blocks_blo3 {
+            width: 370px;
+            height: 500px;
+            box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.062);
+        }
+
+        .blo_1 {
+            background-image: url(https://htmldemo.net/flosun/flosun/assets/images/blog/blog2.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 45%;
+        }
+
+        .blo_2 {
+            width: 100%;
+            height: 55%;
+
+            .h4 {
+                font-size: 21px;
+                margin: 18px;
+
+                a {
+                    text-decoration: none;
+                    outline: 0;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 100;
+                    color: rgb(0, 0, 0);
+                    transition: 1s;
+                }
+
+                a:hover {
+                    color: #E72463;
+                }
+            }
+
+            .p1 {
+                margin-left: 18px;
+                font-size: 14px;
+                color: rgb(70, 70, 70);
+                transition: 0.500s;
+            }
+
+            .p2 {
+                margin-left: 18px;
+                margin-top: 10px;
+                font-weight: 10;
+                color: #484848;
+                font-family: "Poppins",;
+                transition: 0.500s;
+                font-size: 16.700px;
+                margin-bottom: 10px;
+            }
+
+            .p1:hover {
+                color: #E72463;
+            }
+            .blo_a{
+                color: #484848;
+                text-decoration: none;
+                font-family: "Poppins";
+                font-size: 15px;
+                margin-left: 18px;
+                transition: 0.500s;
+            }
+            .blo_a:hover{
+                color: #E72463;
+            }
+        }
+    }
+
+    .blocks_blo3:hover {
+        transition: 0.400s;
+        box-shadow: 0 0 20px rgba(34, 34, 34, 0.199);
+    }
+}

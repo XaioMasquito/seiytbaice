@@ -1,0 +1,169 @@
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+
+    .div21 {
+        grid-area: 2 / 1 / 5 / 3;
+        text-align: center;
+
+        .p_1 {
+            margin-top: 20px;
+            font-size: 30px;
+            font-family: "Great Vibes", cursive;
+            color: #E72463;
+            text-align: center;
+            font-weight: 1000;
+            text-align: center;
+        }
+
+        .p {
+            margin-top: 20px;
+            font-size: 36px;
+            font-family: "Josefin Slab", serif;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .div22 {
+        grid-area: 2 / 3 / 5 / 5;
+        text-align: center;
+
+        .p_1 {
+            margin-top: 20px;
+            font-size: 30px;
+            font-family: "Great Vibes", cursive;
+            color: #E72463;
+            text-align: center;
+            font-weight: 1000;
+            text-align: center;
+        }
+
+        .p {
+            margin-top: 20px;
+            font-size: 36px;
+            font-family: "Josefin Slab", serif;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+}
+
+.wer {
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto;
+
+    .wer_p1 {
+        width: 50%;
+        height: 100%;
+
+        .mySwiper3 {
+            width: 100%;
+            height: 100%;
+
+            .swiper-slide {
+                width: 100%;
+                height: 100%;
+
+                .red {
+                    width: 90%;
+                    height: 100%;
+                    margin: auto;
+                    .wer1 {
+                        border-radius: 50%;
+                        margin: auto;
+                        width: 150px;
+                        height: 150px;
+                        background-image: url(https://htmldemo.net/flosun/flosun/assets/images/testimonial/testimonial1.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+                        margin-top:10px ;
+                    }
+
+                    .qq {
+                        font-size: 19px;
+                        margin: 40px auto 5px auto;
+                        text-align: center;
+                        font-weight: 100;
+                        color: #484848;
+                        font-family: "Poppins", sans-serif;
+                    }
+                    h6{
+                        color: #E72463;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 500;
+                        margin-top: 20px;
+                        font-family: "Poppins", sans-serif;
+                        span{
+                            color: #000000;
+                            font-weight: 500;
+                            margin-top: 0px;
+                            font-weight: 400;
+                            line-height: 1;
+                        }
+                    }
+                    .wer2 {
+                        border-radius: 50%;
+                        margin: auto;
+                        width: 150px;
+                        height: 150px;
+                        background-image: url(https://htmldemo.net/flosun/flosun/assets/images/testimonial/testimonial2.jpg);
+                        background-position: center;
+                        background-size: cover;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+                        margin-top:10px ;
+                    }
+                }
+            }
+        }
+    }
+
+    .wer_p2 {
+        width: 50%;
+        height: 100%;
+
+        .wer_q {
+            width: 100%;
+            height: 76%;
+
+            .mySwiper4 {
+                width: 100%;
+                height: 100%;
+                
+                .swiper-slide {
+                    display: flex;
+                    background: #f6f6f6;
+                    height: 126px;
+                    .runa{
+                        background-color: #E72463;
+                        width: 100px;
+                        display: flex;
+                        p{
+                            color: #fff;
+                            margin: auto;
+                            font-size: 11px;
+                        }
+                    }
+                }
+                .swiper-slide:hover{
+                    background-color: #E72463;
+                }
+
+            }
+        }
+
+    }
+}
+// .wer div {
+//     border: solid black 2px;
+// }

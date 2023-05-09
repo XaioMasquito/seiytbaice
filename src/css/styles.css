@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./q.css);
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@500&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Slab:ital,wght@1,500&family=Poppins:wght@500&family=Tilt+Warp&display=swap');
+* {
+  margin: 0;
+}
+.lago{
+  background-image: url(https://img.freepik.com/free-photo/flowers-background_23-2148011047.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}

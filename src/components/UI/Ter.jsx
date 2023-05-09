@@ -1,13 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import React from "react";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import { Mousewheel, Pagination } from "swiper";
+import "../../css/ter.scss"
 export default function Ter() {
   return (
     <div>
@@ -63,21 +62,21 @@ export default function Ter() {
             >
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Post with Gallery</h2>{" "}
+                    <h2>Post with Gallery</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
@@ -85,105 +84,105 @@ export default function Ter() {
                     <h2>Post with Video</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Post with Audio</h2>{" "}
+                    <h2>Post with Audio</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Standard Blog Post</h2>{" "}
+                    <h2>Standard Blog Post</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Post with Gallery</h2>{" "}
+                    <h2>Post with Gallery</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Post with Video</h2>{" "}
+                    <h2>Post with Video</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Post with Audio</h2>{" "}
+                    <h2>Post with Audio</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Standard Blog Post</h2>{" "}
+                    <h2>Standard Blog Post</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="runa">
-                  <p>07/09/2022</p>{" "}
+                  <p>07/09/2022</p>
                 </div>
                 <div className="run_2a">
                   <div className="img_run"></div>
                   <div className="text_run">
-                    <h2>Post with Gallery</h2>{" "}
+                    <h2>Post with Gallery</h2>
                     <p>
                       Posted by <span>admin</span>
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>

@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 import { Grid, Pagination } from "swiper";
-import "../../css/carus2.scss"
+import "../../css/carus2.css"
 
 
 export default function Carus2() {

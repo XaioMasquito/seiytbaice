@@ -1,0 +1,72 @@
+.div {
+    display: flex;
+    height: 270px;
+    width: 100%;
+    background-color: #f8f8f8;
+
+    .wer1 {
+        margin-top: 100px;
+        width: 50%;
+        height: 30%;
+
+        h2 {
+            color: rgb(0, 0, 0);
+            margin: auto 0 0 350px;
+            font-size: 36px;
+            font-family: "Josefin Slab", serif;
+            font-weight: 700;
+            padding-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin: auto 0 0 350px;
+            line-height: 1.6;
+            font-weight: 400;
+            color: #484848;
+            font-family: "Poppins", sans-serif;
+            scroll-behavior: smooth;
+            font-size: 14px;
+        }
+
+
+    }
+
+    .wer2 {
+        width: 50%;
+        display: flex;
+
+        input {
+            background-color: #f8f8f8;
+            border: none;
+            border-bottom: 1px solid #dddddd;
+            color: #555555;
+            font-size: 14px;
+            height: 48px;
+            line-height: 48px;
+            max-width: 100%;
+            width: 400px;
+            margin: auto 0px auto 50px;
+        }
+
+        #button {
+            height: 48px;
+            width: 140px;
+            margin: auto 0;
+            background: #555555;
+            border: none;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 48px;
+        }
+        #button{
+            background-color: #E72463;
+            transition: 0.500s;
+        }
+        #button:hover{
+            background-color: #484848;
+            transition: 0.500s;
+        }
+    }
+}

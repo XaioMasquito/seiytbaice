@@ -1,4 +1,5 @@
 import React from "react";
+import "../../css/imput.scss"
 export default function Input() {
   return (
     <div className="div">

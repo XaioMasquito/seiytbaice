@@ -1,6 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import "../../css/carus.css"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -8,7 +8,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import required modules
 import { EffectFade, Navigation, Pagination } from "swiper";
-import "../../css/carus.css"
 export default function Carus() {
   return (
     <div className="block1">
