@@ -4,7 +4,7 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import Home  from './pages/Home'
 import Shop from './pages/Shop'
-
+import Contact from './pages/Contact';
 const Router = () => {
     return (
         <div>
@@ -13,6 +13,7 @@ const Router = () => {
                 <Route path='/about' element={<About/>}/>
                 <Route path='/blog' element={<Blog/>}/>
                 <Route path='/Shop' element={<Shop/>}/>
+                <Route path='/contact' element={<Contact/>}/>
             </Routes>
         </div>
     );

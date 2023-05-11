@@ -6,7 +6,7 @@
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    width: 65%;
+    width: 1200px;
     margin: auto;
 
     .div21 {
@@ -247,5 +247,13 @@
                 }
             }
         }
+    }
+}
+@media(max-width:1200px){
+    .wer{
+        width: 1000px;
+    }
+    .parent2 {
+        width: 1000px;
     }
 }
