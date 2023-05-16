@@ -1,0 +1,15 @@
+.btn-primary{
+    position: relative;
+    right: 20%;
+    height: 40%;
+    background-color: rgba(139, 0, 93, 0);
+    border: none;
+    color: rgba(240, 248, 255, 0);
+}
+.btn-primary:hover{
+    position: relative;
+    right: 20%;
+    background-color: rgba(0, 0, 139, 0);
+    border: none;
+    color: rgba(240, 248, 255, 0);
+}

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import OffCanvasExample from "./UI/A";
 import "../css/header.css"
 const Header = () => {
   const [openShop, setOpenShop]=useState(true)
@@ -60,7 +61,7 @@ const Header = () => {
         <div className="rr">
             <p className="u_p" onMouseOver={openShopCar} onMouseOut={openShopCar}><FontAwesomeIcon icon={faCartShopping} /></p>
             <p className="u_p" onMouseOver={PpenShopCar} onMouseOut={PpenShopCar}><FontAwesomeIcon icon={faMagnifyingGlass}/></p>
-            <p className="u_p"><FontAwesomeIcon icon={faBars}  /></p></div>
+            <p className="u_p1"><FontAwesomeIcon icon={faBars} /><OffCanvasExample placement={'end'} name={'end'} /></p></div>
         </nav>
         <div className={`wer_kar ${openShop?'close':'open'}`}>
           ff
