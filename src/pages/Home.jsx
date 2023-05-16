@@ -16,7 +16,7 @@ const Home = () => {
             <Carus2/>
             <Prot/>
             <Ter/>
-            <Input/>y
+            <Input/>
             <Norm/>
             <Carus3/>
         </div>

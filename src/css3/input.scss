@@ -34,4 +34,70 @@ div{
         }
     }
 }
+.parent3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    .div31 { grid-area: 2 / 1 / 5 / 2;
+        display: flex; 
+    .div_por{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        .por_loh{
+            width: 100%;
+            height: 40%;
+        }
+        .por_hol{
+            width: 60px;
+            height: 60px;
+            margin:50px auto 10px  auto;
+            border-radius: 50%;
+        }
+    }}
+    .div32 { grid-area: 2 / 2 / 5 / 3;
+        display: flex; 
+    .div_por{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        .por_loh{
+            width: 100%;
+            height: 40%;
+        }
+        .por_hol{
+            width: 60px;
+            height: 60px;
+            margin:50px auto 10px  auto;
+            border-radius: 50%;
+        }
+    }}
+    .div33 { grid-area: 2 / 3 / 5 / 4;
+        display: flex; 
+    .div_por{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        .por_loh{
+            width: 100%;
+            height: 40%;
+        }
+        .por_hol{
+            width: 60px;
+            height: 60px;
+            margin:50px auto 10px  auto;
+            border-radius: 50%;
+        }
+    }}
+    }
+    .parent3 div{
+        border: solid rgba(0, 0, 0, 0.199) 1px;
+    }
+    
+
 }

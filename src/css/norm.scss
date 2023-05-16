@@ -192,6 +192,13 @@
 
     .blocks_blo3:hover {
         transition: 0.400s;
-        box-shadow: 0 0 20px rgba(34, 34, 34, 0.199);
+      box-shadow: 0 0 20px rgba(34, 34, 34, 0.199);
+    }
+}
+@media( max-width:1200px ){
+    .block_1 {
+        .block_block{
+            width: 80%;
+        }
     }
 }

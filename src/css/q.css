@@ -109,3 +109,12 @@
   height: 750px;
 }
 }
+@media(max-width:1000px){
+  .parent{
+    width: 800px;
+    height: 580px;
+  }
+  .block1{
+    height: 800px;
+  }
+  }

@@ -3,6 +3,7 @@ import "../../css/imput.scss"
 export default function Input() {
   return (
     <div className="div">
+      <div className="wer">
     <div className="wer1">
         
       <h2>SEND NEWSLETTER</h2>
@@ -12,7 +13,7 @@ export default function Input() {
     <div className="wer2"> 
     <input type="email" placeholder="email@gmail.com"/>
     <button id="button">Sudscribe</button>
-    </div>
+    </div></div>
     </div>
   );
 }

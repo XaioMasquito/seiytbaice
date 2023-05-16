@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import { EffectFade, Navigation, Pagination } from "swiper";
 export default function Carus() {
   return (
-    <div className="block1">
+    <div className="block_p">
       <Swiper
         spaceBetween={1}
         loop

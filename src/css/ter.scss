@@ -52,7 +52,7 @@
     }
 }
 
-.wer {
+.wer0 {
     width: 1200px;
     display: flex;
     margin: auto;
@@ -250,10 +250,31 @@
     }
 }
 @media(max-width:1200px){
-    .wer{
+    .wer0{
         width: 1000px;
+        margin: auto;
     }
     .parent2 {
         width: 1000px;
     }
 }
+@media(max-width:1000px){
+    .wer0{
+        width: 800px ;
+        height: 1000px;
+        flex-direction: column;
+        
+        .wer_p1{
+            width: 70%;
+            margin: auto;
+        }
+        .wer_p2{
+            width: 70%;
+            margin: auto;
+        }
+        }
+
+    }
+    .parent2 {
+        width: 800px;
+    }

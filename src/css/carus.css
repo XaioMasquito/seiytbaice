@@ -1,102 +1,151 @@
-
-.red1 {
-    background-image: url(https://htmldemo.net/flosun/flosun/assets/images/slider/3-1.jpg);
-    background-position: center;
-    width: 100%;
-    height: 890px;
-    display: flex;
+.red1 { 
+  background-image: url(https://htmldemo.net/flosun/flosun/assets/images/slider/3-1.jpg); 
+  background-size: cover;
+  background-position: center; 
+  width: 100%; 
+  height: 890px; 
+  display: flex; 
+} 
+ 
+.red2 { 
+  background-image: url(https://htmldemo.net/flosun/flosun/assets/images/slider/3-2.jpg); 
+  background-size: cover;
+  background-position: center; 
+  width: 100%; 
+  height: 890px; 
+  display: flex; 
+} 
+ 
+.w { 
+  margin: 300px auto; 
+  text-align: center; 
+} 
+ 
+.red_1 { 
+  font-size: 190px; 
+  font-family: 'Great Vibes', cursive; 
+  font-weight: 500; 
+  color: #E72463; 
+  letter-spacing:4px; 
+  animation: weer 1s ease-in-out;
+} 
+ @keyframes weer{
+  0%{
+    margin-top: 40px;
+    color: red;
+    
   }
-  
-  .red2 {
-    background-image: url(https://htmldemo.net/flosun/flosun/assets/images/slider/3-2.jpg);
-    background-position: center;
-    width: 100%;
-    height: 890px;
-    display: flex;
+  30%{display: none;
+    
   }
-  
-  .w {
-    margin: 300px auto;
-    text-align: center;
-  }
-  
-  .red_1 {
-    font-size: 190px;
-    font-family: 'Great Vibes', cursive;
-    font-weight: 500;
-    color: #E72463;
-    letter-spacing:4px;
-  }
-  
-  .p_red {
-    font-size: 80px;
-    line-height: 80px;
-    font-weight: 500;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    position: relative;
-    bottom: 30px;
-  }
-  
-  .p_red1 {
-    font-size: 80px;
-    line-height: 80px;
-    font-weight: 500;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    bottom: 30px;
-  }
-  
-  .swiper {
-    width: 100%;
-   
-  }
-  .mySwiper1 .swiper-wrapper .swiper-slide {
-    background-position: center;
-    background-size: cover;
-  }
-  .swiper-button-prev{
-    color: #000;
-  }
-  .swiper-button-next{
-    color: #000;
-  }
-  .swiper-slide img {
+  40%{
     display: block;
-    width: 100%;
   }
-  .q::after {
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 100%;
-    transition: .4s;
-    background-color: black;
-    z-index: 0;
+  100%{
+    color: #E72463;
+    margin-top: 0;
   }
+
+ }
+.p_red { 
+  font-size: 80px; 
+  line-height: 80px; 
+  font-weight: 500; 
+  font-family: 'Great Vibes', cursive; 
+  font-family: 'Poppins', sans-serif; 
+  color: #fff; 
+  position: relative; 
+  bottom: 30px; 
+} 
+ 
+.p_red1 { 
+  font-size: 80px; 
+  line-height: 80px; 
+  font-weight: 500; 
+  font-family: 'Great Vibes', cursive; 
+  font-family: 'Poppins', sans-serif; 
+  position: relative; 
+  bottom: 30px; 
+} 
+ 
+.swiper { 
+  width: 100%; 
   
-  .q span {
-    position: relative;
-    z-index: 2;
+} 
+.mySwiper1 .swiper-wrapper .swiper-slide { 
+  background-position: center; 
+  background-size: cover; 
+} 
+.swiper-button-prev{ 
+  color: #000; 
+} 
+.swiper-button-next{ 
+  color: #000; 
+} 
+.swiper-slide img { 
+  display: block; 
+  width: 100%; 
+} 
+.q::after { 
+  position: absolute; 
+  content: ''; 
+  left: 0; 
+  top: 0; 
+  bottom: 0; 
+  right: 100%; 
+  transition: .4s; 
+  background-color: black; 
+  z-index: 0; 
+} 
+ 
+.q span { 
+  position: relative; 
+  z-index: 2; 
+} 
+ 
+.q:hover::after { 
+  right: 0; 
+} 
+ 
+.q { 
+  width: 180px; 
+  height: 45px; 
+  font-size: 16px; 
+  color: #fff; 
+  background-color: #E72463; 
+  font-family: 'Great Vibes', cursive; 
+  font-family: 'Poppins', sans-serif; 
+  border: none; 
+  position: relative; 
+} 
+@media(max-width:1200px){ 
+  .red_1 { 
+    font-size: 160px; 
+  } 
+   
+  .p_red { 
+    font-size: 60px; 
+  } 
+   
+  .p_red1 { 
+    font-size: 60px; 
+  } 
+  .block_p{ 
+    height: 500px; 
+  } 
+  .red1 { 
+    height: 100%; 
+    
+  } 
+   
+  .red2 { 
+    height: 100%; 
+  } 
+  .mySwiper1{ 
+    width: 100%; 
+    height: 100%; 
+  } 
+  .w{
+    margin: auto;
   }
-  
-  .q:hover::after {
-    right: 0;
-  }
-  
-.q {
-    width: 180px;
-    height: 45px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #E72463;
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    position: relative;
-  }
-  
+}

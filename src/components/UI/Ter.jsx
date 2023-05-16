@@ -20,7 +20,7 @@ export default function Ter() {
           <p className="p">OUR LATEST POST</p>
         </div>
       </div>
-      <div className="wer">
+      <div className="wer0">
         <div className="wer_p1">
           <Swiper loop modules={[Navigation]} className="mySwiper3">
             <SwiperSlide>

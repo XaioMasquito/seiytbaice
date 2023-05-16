@@ -11,7 +11,18 @@ export default function Carus2() {
   return (
     <div className="wetr"><div className="reda"><p className="rede_p">The Most Trendy</p><p  className="rede_p1" >FEATURED PRODUCTS</p></div>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={1}
+        breakpoints={{ 
+          380: { 
+            slidesPerView: 2, 
+          }, 
+          800: { 
+            slidesPerView: 3, 
+          }, 
+          1200: { 
+            slidesPerView: 4, 
+          }, 
+        }}
         grid={{
           rows: 2,
         }}
