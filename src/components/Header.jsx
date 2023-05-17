@@ -63,10 +63,10 @@ const Header = () => {
             <p className="u_p" onMouseOver={PpenShopCar} onMouseOut={PpenShopCar}><FontAwesomeIcon icon={faMagnifyingGlass}/></p>
             <p className="u_p1"><FontAwesomeIcon icon={faBars} /><OffCanvasExample placement={'end'} name={'end'} /></p></div>
         </nav>
-        <div className={`wer_kar ${openShop?'close':'open'}`}>
+        <div  onMouseOver={openShopCar} onMouseOut={openShopCar} className={`wer_kar ${openShop?'close':'open'}`}>
           ff
         </div>
-        <input placeholder="Search" className={`input ${PpenShop?'a':'b'}`}/>
+        <input  onMouseOver={openShopCar} onMouseOut={openShopCar} placeholder="Search" className={`input ${PpenShop?'a':'b'}`}/>
           
 
       </header>
