@@ -2,7 +2,7 @@
     display: flex;
     height: 270px;
     width: 100%;
-    background-color: #f8f8f8;
+    background-color: #faf7f7;
     .wer{
         width: 1200px;
         height: 100%;
@@ -63,11 +63,11 @@
             line-height: 48px;
         }
         #button{
-            background-color: #E72463;
+            background-color: #484848;
             transition: 0.500s;
         }
         #button:hover{
-            background-color: #484848;
+            background-color: #E72463;
             transition: 0.500s;
         }
     }}

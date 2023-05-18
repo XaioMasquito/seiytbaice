@@ -4,10 +4,12 @@
     height: 40%;
     background-color: rgba(139, 0, 93, 0);
     border: none;
+    width: 10px;
     color: rgba(240, 248, 255, 0);
 }
 .btn-primary:hover{
     position: relative;
+    width: 10px;
     right: 20%;
     background-color: rgba(0, 0, 139, 0);
     border: none;

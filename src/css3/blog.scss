@@ -1,0 +1,137 @@
+div {
+    .img2 {
+        margin-top: 100px;
+        width: 100%;
+        height: 280px;
+        background-image: url(https://htmldemo.net/flosun/flosun/assets/images/bg/breadcrumb.jpg);
+
+        .block_p1 {
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff49;
+            display: flex;
+
+            .block_text_p1 {
+                width: 300px;
+                height: 100px;
+                margin: auto;
+
+                h2 {
+                    color: #000;
+                    text-align: center;
+                    font-family: "Great Vibes", cursive;
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: #000000;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 400;
+                    text-align: center;
+                    margin-top: 10px;
+
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .weert {
+        width: 1200px;
+        height: 1000px;
+        margin: auto;
+
+        .wert {
+            margin-top: 100px;
+            width: 100%;
+            height: 700px;
+            background-image: url(https://htmldemo.net/flosun/flosun/assets/images/blog/blog1.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .wert1 {
+            margin-top: 40px;
+            width: 100%;
+            height: 100px;
+
+            h2 {
+                font-size: 28px;
+                font-family: "Poppins", sans-serif;
+                color: #010101;
+                text-transform: uppercase;
+            }
+
+            p {
+                line-height: 1.6;
+                font-weight: 400;
+                color: #484848;
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+            }
+        }
+
+        .wert2 {
+            width: 95%;
+            height: 130px;
+            background-color: #f6f6f6;
+            margin-left: 5%;
+            display: flex;
+
+            .q {
+                width: 5px;
+                height: 100%;
+            }
+
+            p {
+                margin: 40px;
+                line-height: 1.6;
+                font-weight: 400;
+                color: #484848;
+                font-family: "Poppins", sans-serif;
+            }
+        }
+        .wert3{
+            width: 100%;
+            height: 100px;
+            p{
+                margin-top: 20px;
+                line-height: 1.6;
+                font-weight: 400;
+                color: #484848;
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+            }
+        }
+        .wert4{
+            width: 100%;
+            height: 13px;
+            display: flex;
+            gap:38%;
+            p{
+                font-family: "Poppins", sans-serif;
+                color: #000000;
+                font-weight: 500;
+                margin-top: 0px;
+                font-weight: 400;
+                line-height: 1;
+                font-size: 12px;
+            }
+        }
+        hr{
+            width: 100%;
+            height: 10px;
+        }
+        .wert5{
+            margin: 0 530px;
+            width: 129px;
+            height: 36px;
+            background-image: url(../../src/components/UI/ul/ad.png);
+            background-repeat: no-repeat;
+        }
+    }
+}
