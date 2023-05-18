@@ -44,11 +44,13 @@
 .div2:hover {
   background-size: 110%;
   transition: 1s;
+  box-shadow: inset 0px -32px 52px #0000003d;
 }
 
 .div3:hover {
   background-size: 110%;
   transition: 1s;
+  box-shadow: inset 0px -32px 52px #0000003d;
 }
 
 .p_Flo {
