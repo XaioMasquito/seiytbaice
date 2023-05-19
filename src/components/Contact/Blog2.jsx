@@ -2,7 +2,7 @@ import React from "react";
 import "../../css3/blog.scss";
 export default function Blog2() {
   return (
-    <div>
+    <div className="a_b">
       <div className="img2">
         <div className="block_p1">
           <div className="block_text_p1">
