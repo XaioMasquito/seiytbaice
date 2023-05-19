@@ -37,7 +37,7 @@ export default function Carus() {
             <div className="w">
               <h1 className="red_1">Welcome</h1>
               <p className="p_red1">2022 Flower Trend</p>
-              <a href="/">
+              <a  href="/">
                 <button className="q">
                   <span>Shop collection</span>
                 </button>

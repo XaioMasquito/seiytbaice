@@ -14,7 +14,21 @@ export default function Carus3() {
   return (
     <div className="carus3">
       <Swiper
-        slidesPerView={5}
+        slidesPerView={1}
+        breakpoints={{
+          350: {
+            slidesPerView: 2,
+          },
+          580: {
+            slidesPerView: 3,
+          },
+          800: {
+            slidesPerView: 4,
+          },
+          1200: {
+            slidesPerView: 5,
+          },
+        }}
         spaceBetween={15}
         modules={[Pagination]}
         navigation={true}

@@ -9,19 +9,13 @@ import { Mousewheel, Pagination } from "swiper";
 import "../../css/ter.scss"
 export default function Ter() {
   return (
-    <div>
-      <div class="parent2">
-        <div class="div21">
+    <div id="ter">
+      <div className="wer0">        
+        <div className="wer_p1">
+          <div class="div21">
           <p className="p_1">We love our clients</p>
           <p className="p">WHAT THEY’RE SAYING</p>
         </div>
-        <div class="div22">
-          <p className="p_1">From The Blogs</p>
-          <p className="p">OUR LATEST POST</p>
-        </div>
-      </div>
-      <div className="wer0">
-        <div className="wer_p1">
           <Swiper loop modules={[Navigation]} className="mySwiper3">
             <SwiperSlide>
               <div className="red">
@@ -49,8 +43,11 @@ export default function Ter() {
             </SwiperSlide>
           </Swiper>
         </div>
-
         <div className="wer_p2">
+          <div class="div22">
+          <p className="p_1">From The Blogs</p>
+          <p className="p">OUR LATEST POST</p>
+        </div>
           <div className="wer_q">
             <Swiper
               direction={"vertical"}

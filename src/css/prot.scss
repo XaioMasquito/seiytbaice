@@ -130,3 +130,21 @@
         }
     }
 }
+@media(max-width:800px) {
+    .a_block{
+        .parent1 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: px;
+            height: 900px;
+            width: 90%;
+            margin: auto;
+            }
+            
+            .div11 { grid-area: 4 / 1 / 7 / 5; margin-top:20px ;}
+            .div12 { grid-area: 1 / 1 / 4 / 5; margin-top:20px ;}
+    }
+
+}

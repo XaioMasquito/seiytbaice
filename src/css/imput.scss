@@ -89,3 +89,54 @@
     }
     }
 }
+@media(max-width:900px){
+    .div{
+        .wer{
+        width: 700px;
+        
+    }
+    }
+    
+}
+@media(max-width:800px){
+    .div{
+        height: 260px;
+        .wer{
+        flex-direction: column;
+        width: 70%;
+        .wer1{
+            margin: 40px auto;
+            width: 100%;
+        }
+        .wer2{
+            margin: 20px auto;
+            width: 100%;
+            input {
+                margin: 0;
+            }
+        }
+        
+    }
+    }
+}
+@media(max-width:500px){
+    .div{
+        height: 360px;
+        .wer{
+        flex-direction: column;
+        width: 70%;
+        .wer1{
+            margin: 40px auto;
+            width: 100%;
+        }
+        .wer2{
+            margin: 20px auto;
+            width: 100%;
+            input {
+                margin: 0;
+            }
+        }
+        
+    }
+    }
+}

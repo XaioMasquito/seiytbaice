@@ -6,8 +6,8 @@ function Footer() {
       <footer>
         <div class="parent6">
           <div class="div61">
-            {" "}
-            <div className="red_img"></div>{" "}
+            
+            <div className="red_img"></div>
             <div className="red_p">
               <p className="red_p1">
                 Lorem Khaled Ipsum is a major key to success. To be successful

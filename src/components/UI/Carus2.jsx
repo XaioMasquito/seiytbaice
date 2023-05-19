@@ -13,7 +13,7 @@ export default function Carus2() {
       <Swiper
         slidesPerView={1}
         breakpoints={{
-          380: {
+          500: {
             slidesPerView: 2,
           },
           800: {
