@@ -43,7 +43,7 @@ export default function Input2() {
               <div className="por_loh">
                 <h1 className="loh_1">Support Overall</h1>
                 <p className="loh_2">
-                  Support24/7@example.com info@example.com
+                  Support24/7@example.com <br /> info@example.com
                 </p>
               </div>
             </div>

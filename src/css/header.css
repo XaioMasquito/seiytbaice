@@ -157,7 +157,7 @@
 
     .rr {
         display: flex;
-        margin: 40px 0 0 40%;
+        margin: 40px 0 0 30%;
     }
 }
 
@@ -177,6 +177,44 @@
 
     .rr {
         display: flex;
-        margin: 40px 0 0 70%;
+        margin: 40px 0 0 50%;
+    }
+}
+@media(max-width:800px) {
+    .nav_1 {
+        width: 50%;
+    }
+
+    .nav_2 {
+        display: none;
+    }
+
+    .nav_3 {
+        width: 50%;
+
+    }
+
+    .rr {
+        display: flex;
+        margin: 40px 0 0 50%;
+    }
+}
+@media(max-width:500px) {
+    .nav_1 {
+        width: 50%;
+    }
+
+    .nav_2 {
+        display: none;
+    }
+
+    .nav_3 {
+        width: 50%;
+
+    }
+
+    .rr {
+        display: flex;
+        margin: 40px 0 0 30%;
     }
 }
