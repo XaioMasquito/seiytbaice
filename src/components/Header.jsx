@@ -10,7 +10,13 @@ import "../css/header.css"
 const Header = () => {
   const [openShop, setOpenShop]=useState(true)
   function openShopCar(){
-    setOpenShop(!openShop)
+    setOpenShop(false)
+
+  }
+  function closedShopCar(){
+    setTimeout(()=>{
+      setOpenShop(true)
+    }, 2000)
   }
   const [PpenShop, setPpenShop]=useState(true)
   function PpenShopCar(){
@@ -59,14 +65,14 @@ const Header = () => {
         </nav>
         <nav className="nav_3">
         <div className="rr">
-            <p className="u_p" onMouseOver={openShopCar} onMouseOut={openShopCar}><FontAwesomeIcon icon={faCartShopping} /></p>
-            <p className="u_p" onMouseOver={PpenShopCar} onMouseOut={PpenShopCar}><FontAwesomeIcon icon={faMagnifyingGlass}/></p>
+            <p className="u_p" onMouseMove={openShopCar} onMouseOut={closedShopCar}><FontAwesomeIcon icon={faCartShopping} /></p>
+            <p className="u_p" onMouseMove={PpenShopCar} onMouseOut={PpenShopCar}><FontAwesomeIcon icon={faMagnifyingGlass}/></p>
             <p className="u_p1"><FontAwesomeIcon icon={faBars} /><OffCanvasExample placement={'end'} name={'end'} /></p></div>
         </nav>
-        <div  onMouseOver={openShopCar} onMouseOut={openShopCar} className={`wer_kar ${openShop?'close':'open'}`}>
+        <div  onMouseMove={openShopCar} onMouseOut={closedShopCar} className={`wer_kar ${openShop?'close':''}`}>
           
         </div>
-        <input  onMouseOver={openShopCar} onMouseOut={openShopCar} placeholder="Search" className={`input ${PpenShop?'a':'b'}`}/>
+        <input  onMouseMove={openShopCar} onMouseOut={openShopCar} placeholder="Search" className={`input ${PpenShop?'a':'b'}`}/>
           
 
       </header>

@@ -1,6 +1,7 @@
 .a_b {
     width: 100%;
-    height: 1600px;
+    height: 2400px;
+
     .img2 {
         margin-top: 100px;
         width: 100%;
@@ -44,7 +45,7 @@
 
     .weert {
         width: 1200px;
-        height: 1000px;
+        height: 1500px;
         margin: auto;
 
         .wert {
@@ -97,10 +98,12 @@
                 font-family: "Poppins", sans-serif;
             }
         }
-        .wert3{
+
+        .wert3 {
             width: 100%;
             height: 100px;
-            p{
+
+            p {
                 margin-top: 20px;
                 line-height: 1.6;
                 font-weight: 400;
@@ -109,12 +112,14 @@
                 font-size: 14px;
             }
         }
-        .wert4{
+
+        .wert4 {
             width: 100%;
             height: 13px;
             display: flex;
-            gap:38%;
-            p{
+            gap: 38%;
+
+            p {
                 font-family: "Poppins", sans-serif;
                 color: #000000;
                 font-weight: 500;
@@ -124,16 +129,197 @@
                 font-size: 12px;
             }
         }
-        hr{
+
+        hr {
             width: 100%;
             height: 10px;
         }
-        .wert5{
+
+        .wert5 {
             margin: 0 530px;
             width: 129px;
             height: 36px;
             background-image: url(../../src/components/UI/ul/ad.png);
             background-repeat: no-repeat;
+        }
+
+        .wert6 {
+            width: 100%;
+            height: 400px;
+
+            .blo_ppo {
+                font-family: "Poppins", sans-serif;
+                color: #000000;
+                font-size: 24px;
+                margin-top: 0px;
+                font-weight: 400;
+                line-height: 1;
+            }
+
+            .parent8 {
+                display: grid;
+                grid-template-columns: repeat(8, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 30px;
+                width: 95%;
+                height: 300px;
+                margin-top: 45px;
+
+                .div81 {
+                    grid-area: 1 / 1 / 2 / 9;
+                    display: flex;
+
+                    .div_p_img {
+                        height: 80px;
+                        width: 80px;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: url(https://htmldemo.net/flosun/flosun/assets/images/review/1.jpg);
+
+                    }
+
+                    .wer_p {
+                        margin-left: 10px;
+
+                        p {
+                            line-height: 1.6;
+                            font-weight: 400;
+                            color: #484848;
+                            font-family: "Poppins", sans-serif;
+                            scroll-behavior: smooth;
+                            font-size: 14px;
+                            line-height: 35px;
+
+                            a {
+                                color: #000;
+                                text-decoration: none;
+
+                                span {
+                                    font-family: 1000;
+                                    font-size: 18px;
+                                }
+                            }
+
+                            a:hover {
+                                color: #E72463;
+                            }
+                        }
+                    }
+                }
+
+                .div82 {
+                    grid-area: 2 / 2 / 3 / 9;
+                    display: flex;
+
+                    .div_p_img {
+                        height: 80px;
+                        width: 80px;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: url(https://htmldemo.net/flosun/flosun/assets/images/review/1.jpg);
+
+                    }
+
+                    .wer_p {
+                        margin-left: 10px;
+
+                        p {
+                            line-height: 1.6;
+                            font-weight: 400;
+                            color: #484848;
+                            font-family: "Poppins", sans-serif;
+                            scroll-behavior: smooth;
+                            font-size: 14px;
+
+                            a {
+                                color: #000;
+                                text-decoration: none;
+
+                                span {
+                                    font-family: 1000;
+                                    font-size: 18px;
+                                }
+                            }
+
+                            a:hover {
+                                color: #E72463;
+                            }
+                        }
+                    }
+                }
+
+                .div83 {
+                    grid-area: 3 / 1 / 4 / 8;
+                    display: flex;
+
+                    .div_p_img {
+                        height: 80px;
+                        width: 80px;
+                        background-position: center;
+                        background-size: cover;
+                        background-image: url(https://htmldemo.net/flosun/flosun/assets/images/review/1.jpg);
+
+                    }
+
+                    .wer_p {
+                        margin-left: 10px;
+
+                        p {
+                            line-height: 1.6;
+                            font-weight: 400;
+                            color: #484848;
+                            font-family: "Poppins", sans-serif;
+                            scroll-behavior: smooth;
+                            font-size: 14px;
+
+                            a {
+                                color: #000;
+                                text-decoration: none;
+
+                                span {
+                                    font-family: 1000;
+                                    font-size: 18px;
+                                }
+                            }
+
+                            a:hover {
+                                color: #E72463;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .pop {
+                font-family: "Poppins", sans-serif;
+                color: #000000;
+                font-weight: 500;
+                margin-top: 40px;
+                font-weight: 400;
+                line-height: 1;
+                font-size: 24px;
+            }
+            .but1 {
+                width: 100%;
+                height: 45px;
+                font-size: 16px;
+                color: #fff;
+                background-color: #E72463;
+                font-family: 'Great Vibes', cursive;
+                font-family: 'Poppins', sans-serif;
+                border: none;
+                position: relative;
+                margin-top: 10px;
+                margin-bottom: 100px;
+                transition: 1s;
+            }
+            .but1:hover{
+                background-color: #000000;
+                transition: 1s;
+            }
+
         }
     }
 }

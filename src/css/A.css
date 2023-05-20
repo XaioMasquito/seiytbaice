@@ -15,3 +15,98 @@
     border: none;
     color: rgba(240, 248, 255, 0);
 }
+.wer{
+    width: 100%;
+    height: 100%;
+}
+.qw_p{
+    width: 100%;
+    height: 70px;
+    font-size: 60px;
+    color: #000000;
+    font-family: "Great Vibes", cursive;
+    margin-left: 30px;
+}
+.qw_p1{
+    line-height: 1.6;
+    font-weight: 400;
+    color: #616161;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    font-size: 14px;
+    margin-left: 30px;
+}
+hr{
+    width: 85%;
+    margin:30px auto;
+}
+.as{
+    margin-left: 30px;
+}
+.as span{
+    margin-left: 3px;
+    color: #E72463;
+     
+}
+.aq_pop{
+    font-size: 15px;
+    color: #252525;
+    text-transform: capitalize;
+    line-height: 18px;
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 12px;
+    
+}
+.a_imp{
+    width: 80%;
+    height: 50px; 
+}
+.aq1{
+    display: none;
+    width: 90%;
+    height: 360px;
+    margin-left: 30px;
+}
+.ok{
+    width: 20%;
+    height: 100%;
+    border: solid 1px rgba(0, 0, 0, 0.082);
+    background-color: #fff;
+    color: #000000;
+}
+.ok:hover{
+    background-color: #E72463;
+    color: #fff;
+}
+.a_inp{
+    width: 80%;
+    height: 100%; 
+    outline: 0;
+    border:solid 1px rgba(0, 0, 0, 0.082) ;
+}
+.a_inp:hover{
+    border: solid red 1px;
+}
+.werty{
+    background-image: url(../../src/components/UI/ul/werty.png);
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 200px;
+}
+@media(max-width:1000px){
+    .aq{
+        display: none;
+    }
+    .aq1{
+        display: block;
+    }
+    .werty{
+        margin-top: 20px;
+    }
+}
