@@ -1,0 +1,31 @@
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    height: 35px;
+    padding: 0;
+    font-size: 15px;
+    color: #252525;
+    line-height: 18px;
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #000;
+}
+.accordion-button:hover{
+    color: #E72463;
+}
+.accordion-button::after {
+    display: none;
+}
+.p{
+    color: #000;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #252525;
+    display: block;
+    font-weight: 600;
+}
